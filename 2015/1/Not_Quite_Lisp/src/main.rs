@@ -8,16 +8,25 @@ fn main()
     println!("Floor number: {}", calculate_floor(&mut directions));
 }
 
-fn calculate_floor(input: &mut String) -> i16
+fn calculate_floor(directions: &mut String) -> i16
 {
-    let total: i16 = input.len() as i16;
-    input.retain(|c| c == '(');
+    let mut floor: i16 = 0;
+    for (index, direction) in directions.chars().into_iter().enumerate()
+    {
+        if floor == -1
+        {
+            println!("Reached basement at index: {}", index);
+        }
 
-    let up: i16 = input.len() as i16;
-    let down: i16 = total - up;
-    let floor: i16 = up - down;
-
-    println!("Floors up: {} \nFloors down: {} \nFloor: {}", up, down, floor);
+        if direction == '('
+        {
+            floor += 1;
+        }
+        else 
+        {
+            floor -= 1;
+        }
+    }
     return floor;
 }
 
