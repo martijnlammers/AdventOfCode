@@ -1,0 +1,6 @@
+[package]
+name = "I_Was_Told_There_Would_Be_No_Math"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -1,0 +1,1 @@
+C:\Users\MBAly\Documents\AdventOfCode\2015\2\I_Was_Told_There_Would_Be_No_Math\target\debug\I_Was_Told_There_Would_Be_No_Math.exe: C:\Users\MBAly\Documents\AdventOfCode\2015\2\I_Was_Told_There_Would_Be_No_Math\src\main.rs
