@@ -32,7 +32,7 @@ fn calculate_ribbon_box(dimensions: &Vec<i32>) -> i32
     
     let length: i32 = dimensions[0];
     let width: i32 = dimensions[1];
-    return 2 * (length + width);
+    2 * (length + width)
 }
 
 fn calculate_ribbon_bow(dimensions: &Vec<i32>) -> i32

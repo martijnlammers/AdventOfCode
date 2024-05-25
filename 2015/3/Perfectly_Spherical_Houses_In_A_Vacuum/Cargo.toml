@@ -1,0 +1,6 @@
+[package]
+name = "Perfectly_Spherical_Houses_In_A_Vacuum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
