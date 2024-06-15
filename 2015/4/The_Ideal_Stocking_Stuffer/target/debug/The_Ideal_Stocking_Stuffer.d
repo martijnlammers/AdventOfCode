@@ -1,0 +1,1 @@
+C:\Users\MBAly\Documents\AdventOfCode\2015\4\The_Ideal_Stocking_Stuffer\target\debug\The_Ideal_Stocking_Stuffer.exe: C:\Users\MBAly\Documents\AdventOfCode\2015\4\The_Ideal_Stocking_Stuffer\src\main.rs
